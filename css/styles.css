@@ -1,3 +1,7 @@
+
+/*generali*/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -25,18 +29,38 @@ button{
 .tx-red{
     color: red;
 }
+footer{
+    color: white;
+}
+header{
+    color: white;
+}
+.sconto{
+    color: white;
+
+}
+.sostenibilita{
+    color: white;
+}
 
 
 /* background */
   header{
     background-color: #ff6900;
   }
-h5{
+.sconto{
     background-color: red;
     
 }
-h6{
+.sostenibilita{
     background-color: green;
+}
+footer{
+    background-color: black;
+
+}
+.cuore{
+    background-color: white;
 }
 
   /*flex*/
@@ -63,6 +87,9 @@ h6{
   
   header{
     padding: 30px;
+  }
+  .cuore{
+    padding: 20px;
   }
 
   /* posizioni */
