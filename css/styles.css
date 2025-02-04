@@ -21,6 +21,9 @@ a {
   header{
     min-height: 70px;
   }
+  footer{
+    min-height: 70px;
+  }
   .container{
     max-width: 1300px;
 }
@@ -39,6 +42,9 @@ a {
 /* dimensioni testo */
 h2{
     font-size: 18px;
+}
+.font-s-10{
+    font-size: 10px;
 }
 
 /* colori testo */
@@ -64,7 +70,7 @@ header{
 .sostenibilita{
     color: white;
 }
-.sostenibilita{
+.sostenibilita-2{
     color: white;
 }
 
@@ -107,19 +113,22 @@ footer{
     gap: 20px;
   }
  .gap10{
-    gap: 5px;
+    gap: 10px;
 }
 
 
   /*immagini*/
   .img-logo{
 
-    max-height: 18px;
+    max-height: 29px;
   }
 
   /* padding*/
   
   header{
+    padding: 30px;
+  }
+  footer{
     padding: 30px;
   }
   .cuore{
@@ -135,6 +144,11 @@ footer{
     padding: 5px;
 }
   /* posizioni */
+
+  footer{
+    position: sticky;
+    bottom: 0;
+  }
 
   .relativ{
     position: relative;
