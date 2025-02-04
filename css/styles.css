@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+
+  /* container*/
+
+  header{
+    min-height: 70px;
+  }
+  .container{
+    max-width: 1100px;
+}
+
+  /* background */
+  header{
+    background-color: #ff6900;
+  }
+
+
+
+  /*flex*/
+
+  .flex{
+    display: flex;
+  }
+  .beetween{
+    justify-content: space-between;
+  }
+
+
+
+  /*immagini*/
+  .img-logo{
+
+    max-height: 18px;
+  }
+
+  /* padding*/
+  
+  header{
+    padding: 30px;
+  }
