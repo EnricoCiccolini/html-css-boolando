@@ -11,23 +11,45 @@
 button{
     all: unset;
 }
+
+a {
+    text-decoration: none; 
+}
+
   /* container*/
 
   header{
     min-height: 70px;
   }
   .container{
-    max-width: 1100px;
+    max-width: 1300px;
 }
 .container-prodotti{
    
-    border: 2px solid black;
+    
+}
+
+/*margini*/
+.m-bot{
+    margin-bottom: 70px;
+}
+.m-left{
+    margin-left: 140px;
+}
+/* dimensioni testo */
+h2{
+    font-size: 18px;
 }
 
 /* colori testo */
+.tx-grey{
+    color: gray;
+    font-size: 12px;
+}
 
 .tx-red{
     color: red;
+
 }
 footer{
     color: white;
@@ -42,10 +64,16 @@ header{
 .sostenibilita{
     color: white;
 }
+.sostenibilita{
+    color: white;
+}
 
+a{
+    color: white;
+}
 
 /* background */
-  header{
+  .bg-orange{
     background-color: #ff6900;
   }
 .sconto{
@@ -55,6 +83,10 @@ header{
 .sostenibilita{
     background-color: green;
 }
+.sostenibilita-2{
+    background-color: green;
+}
+
 footer{
     background-color: black;
 
@@ -74,7 +106,9 @@ footer{
   .gap{
     gap: 20px;
   }
-
+ .gap10{
+    gap: 5px;
+}
 
 
   /*immagini*/
@@ -91,7 +125,15 @@ footer{
   .cuore{
     padding: 20px;
   }
-
+.sconto{
+    padding: 5px;
+}
+.sostenibilita{
+    padding: 5px;
+}
+.sostenibilita-2{
+    padding: 5px;
+}
   /* posizioni */
 
   .relativ{
@@ -105,9 +147,13 @@ footer{
   .sostenibilita{
     position: absolute;
     bottom: 150px;
-    left: 60px;
+    left: 44px;
   }
-
+  .sostenibilita-2{
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+  }
   .cuore{
     position: absolute;
     top: 60px;
@@ -119,18 +165,70 @@ button{
     position: relative;
     height: 640px; ;
     width: 440px;
+    background-repeat: no-repeat;
 }
 .primo{
-    background-color: blue;
+    background-image:url(../img/1.webp) ;
+    background-position: center ;
+    background-size: 100%;    
 }
 .primo:hover{
-    background-color: red;
+    background-image:url(../img/1b.webp) ;
+    background-position: center ;
+    background-size: 100%;  
+}
+
+.secondo{
+    background-image:url(../img/2.webp) ;
+    background-position: center ;
+    background-size: 100%;    
+}
+.secondo:hover{
+    background-image:url(../img/2b.webp) ;
+    background-position: center ;
+    background-size: 100%;  
+}
+.terzo{
+    background-image:url(../img/3.webp) ;
+    background-position: center ;
+    background-size: 100%;    
+}
+.terzo:hover{
+    background-image:url(../img/3b.webp) ;
+    background-position: center ;
+    background-size: 100%;  
+}
+.quarto{
+    background-image:url(../img/4.webp) ;
+    background-position: center ;
+    background-size: 100%;    
+}
+.quarto:hover{
+    background-image:url(../img/4b.webp) ;
+    background-position: center ;
+    background-size: 100%;  
+}
+
+.quinto{
+    background-image:url(../img/5.webp) ;
+    background-position: center ;
+    background-size: 100%;    
+}
+.quinto:hover{
+    background-image:url(../img/5b.webp) ;
+    background-position: center ;
+    background-size: 100%;  
+}
+.sesto{
+    background-image:url(../img/6.webp) ;
+    background-position: center ;
+    background-size: 100%;    
+}
+.sesto:hover{
+    background-image:url(../img/6b.webp) ;
+    background-position: center ;
+    background-size: 100%;  
 }
 
 
-
-
-button{
-    border: 2px solid black;
-}
 
