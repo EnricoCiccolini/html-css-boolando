@@ -20,6 +20,12 @@ button{
     border: 2px solid black;
 }
 
+/* colori testo */
+
+.tx-red{
+    color: red;
+}
+
 
 /* background */
   header{
@@ -40,6 +46,9 @@ h6{
   }
   .beetween{
     justify-content: space-between;
+  }
+  .gap{
+    gap: 20px;
   }
 
 
@@ -63,12 +72,13 @@ h6{
   }
   .sconto{
     position: absolute;
-    bottom: 60px;
+    bottom: 150px;
+    left: 20;
   }
   .sostenibilita{
     position: absolute;
-    bottom: 60px;
-    left: 40px;
+    bottom: 150px;
+    left: 60px;
   }
 
   .cuore{
