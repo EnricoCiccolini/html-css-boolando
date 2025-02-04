@@ -4,7 +4,9 @@
     box-sizing: border-box;
   }
 
-
+button{
+    all: unset;
+}
   /* container*/
 
   header{
@@ -13,13 +15,23 @@
   .container{
     max-width: 1100px;
 }
+.container-prodotti{
+   
+    border: 2px solid black;
+}
 
-  /* background */
+
+/* background */
   header{
     background-color: #ff6900;
   }
-
-
+h5{
+    background-color: red;
+    
+}
+h6{
+    background-color: green;
+}
 
   /*flex*/
 
@@ -43,3 +55,45 @@
   header{
     padding: 30px;
   }
+
+  /* posizioni */
+
+  .relativ{
+    position: relative;
+  }
+  .sconto{
+    position: absolute;
+    bottom: 60px;
+  }
+  .sostenibilita{
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+  }
+
+  .cuore{
+    position: absolute;
+    top: 60px;
+    right: 10px;
+  }
+
+/* bottoni */
+button{
+    position: relative;
+    height: 640px; ;
+    width: 440px;
+}
+.primo{
+    background-color: blue;
+}
+.primo:hover{
+    background-color: red;
+}
+
+
+
+
+button{
+    border: 2px solid black;
+}
+
